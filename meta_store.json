@@ -1,0 +1,551 @@
+[
+  {
+    "id": 1,
+    "title": "Fix for NullPointerException in user service",
+    "root_cause": "The root cause is unhandled NullPointerException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "title": "Fix for SQL injection vulnerability in search",
+    "root_cause": "The root cause is unhandled SecurityException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "critical",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "title": "Fix for CORS misconfiguration",
+    "root_cause": "The root cause is unhandled CorsError.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "title": "Fix for Database connection pool exhaustion",
+    "root_cause": "The root cause is unhandled TimeoutException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "title": "Fix for API rate limiting bypass",
+    "root_cause": "The root cause is unhandled SecurityIssue.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "title": "Fix for NullPointerException in user service",
+    "root_cause": "The root cause is unhandled NullPointerException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "title": "Fix for SQL injection vulnerability in search",
+    "root_cause": "The root cause is unhandled SecurityException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "critical",
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "title": "Fix for CORS misconfiguration",
+    "root_cause": "The root cause is unhandled CorsError.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "title": "Fix for Database connection pool exhaustion",
+    "root_cause": "The root cause is unhandled TimeoutException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "title": "Fix for API rate limiting bypass",
+    "root_cause": "The root cause is unhandled SecurityIssue.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 11,
+    "title": "Fix for NullPointerException in user service",
+    "root_cause": "The root cause is unhandled NullPointerException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "title": "Fix for SQL injection vulnerability in search",
+    "root_cause": "The root cause is unhandled SecurityException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "critical",
+    "status": "active"
+  },
+  {
+    "id": 13,
+    "title": "Fix for CORS misconfiguration",
+    "root_cause": "The root cause is unhandled CorsError.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 14,
+    "title": "Fix for Database connection pool exhaustion",
+    "root_cause": "The root cause is unhandled TimeoutException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "title": "Fix for API rate limiting bypass",
+    "root_cause": "The root cause is unhandled SecurityIssue.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 16,
+    "title": "Fix for NullPointerException in user service",
+    "root_cause": "The root cause is unhandled NullPointerException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 17,
+    "title": "Fix for SQL injection vulnerability in search",
+    "root_cause": "The root cause is unhandled SecurityException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "critical",
+    "status": "active"
+  },
+  {
+    "id": 18,
+    "title": "Fix for CORS misconfiguration",
+    "root_cause": "The root cause is unhandled CorsError.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 19,
+    "title": "Fix for Database connection pool exhaustion",
+    "root_cause": "The root cause is unhandled TimeoutException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 20,
+    "title": "Fix for API rate limiting bypass",
+    "root_cause": "The root cause is unhandled SecurityIssue.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 21,
+    "title": "Fix for NullPointerException in user service",
+    "root_cause": "The root cause is unhandled NullPointerException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 22,
+    "title": "Fix for SQL injection vulnerability in search",
+    "root_cause": "The root cause is unhandled SecurityException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "critical",
+    "status": "active"
+  },
+  {
+    "id": 23,
+    "title": "Fix for CORS misconfiguration",
+    "root_cause": "The root cause is unhandled CorsError.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 24,
+    "title": "Fix for Database connection pool exhaustion",
+    "root_cause": "The root cause is unhandled TimeoutException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 25,
+    "title": "Fix for API rate limiting bypass",
+    "root_cause": "The root cause is unhandled SecurityIssue.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 26,
+    "title": "Fix for NullPointerException in user service",
+    "root_cause": "The root cause is unhandled NullPointerException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 27,
+    "title": "Fix for SQL injection vulnerability in search",
+    "root_cause": "The root cause is unhandled SecurityException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "critical",
+    "status": "active"
+  },
+  {
+    "id": 28,
+    "title": "Fix for CORS misconfiguration",
+    "root_cause": "The root cause is unhandled CorsError.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 29,
+    "title": "Fix for Database connection pool exhaustion",
+    "root_cause": "The root cause is unhandled TimeoutException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 30,
+    "title": "Fix for API rate limiting bypass",
+    "root_cause": "The root cause is unhandled SecurityIssue.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 31,
+    "title": "Fix for NullPointerException in user service",
+    "root_cause": "The root cause is unhandled NullPointerException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 32,
+    "title": "Fix for SQL injection vulnerability in search",
+    "root_cause": "The root cause is unhandled SecurityException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "critical",
+    "status": "active"
+  },
+  {
+    "id": 33,
+    "title": "Fix for CORS misconfiguration",
+    "root_cause": "The root cause is unhandled CorsError.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 34,
+    "title": "Fix for Database connection pool exhaustion",
+    "root_cause": "The root cause is unhandled TimeoutException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 35,
+    "title": "Fix for API rate limiting bypass",
+    "root_cause": "The root cause is unhandled SecurityIssue.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 36,
+    "title": "Fix for NullPointerException in user service",
+    "root_cause": "The root cause is unhandled NullPointerException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 37,
+    "title": "Fix for SQL injection vulnerability in search",
+    "root_cause": "The root cause is unhandled SecurityException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "critical",
+    "status": "active"
+  },
+  {
+    "id": 38,
+    "title": "Fix for CORS misconfiguration",
+    "root_cause": "The root cause is unhandled CorsError.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 39,
+    "title": "Fix for Database connection pool exhaustion",
+    "root_cause": "The root cause is unhandled TimeoutException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 40,
+    "title": "Fix for API rate limiting bypass",
+    "root_cause": "The root cause is unhandled SecurityIssue.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 41,
+    "title": "Fix for NullPointerException in user service",
+    "root_cause": "The root cause is unhandled NullPointerException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 42,
+    "title": "Fix for SQL injection vulnerability in search",
+    "root_cause": "The root cause is unhandled SecurityException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "critical",
+    "status": "active"
+  },
+  {
+    "id": 43,
+    "title": "Fix for CORS misconfiguration",
+    "root_cause": "The root cause is unhandled CorsError.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 44,
+    "title": "Fix for Database connection pool exhaustion",
+    "root_cause": "The root cause is unhandled TimeoutException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 45,
+    "title": "Fix for API rate limiting bypass",
+    "root_cause": "The root cause is unhandled SecurityIssue.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 46,
+    "title": "Fix for NullPointerException in user service",
+    "root_cause": "The root cause is unhandled NullPointerException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 47,
+    "title": "Fix for SQL injection vulnerability in search",
+    "root_cause": "The root cause is unhandled SecurityException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "critical",
+    "status": "active"
+  },
+  {
+    "id": 48,
+    "title": "Fix for CORS misconfiguration",
+    "root_cause": "The root cause is unhandled CorsError.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 49,
+    "title": "Fix for Database connection pool exhaustion",
+    "root_cause": "The root cause is unhandled TimeoutException.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 50,
+    "title": "Fix for API rate limiting bypass",
+    "root_cause": "The root cause is unhandled SecurityIssue.",
+    "fix_description": "Implement bounds checking and validation.",
+    "code_fix": "if not data:\n    return None",
+    "severity": "high",
+    "status": "active"
+  },
+  {
+    "id": 51,
+    "title": "Resolution for Bug #107: NullPointerException in OrderService checkout payment token processing",
+    "root_cause": "Unhandled null payment token in OrderService during checkout",
+    "fix_description": "Add null check: if (token != null && token.isValid()) processCheckout(token)",
+    "code_fix": "if (token == null) {\n    throw new InvalidPaymentException('Token cannot be null');\n}\nreturn token.process();",
+    "severity": "critical",
+    "status": "active"
+  },
+  {
+    "id": 52,
+    "title": "Resolution for Bug #109: NullPointerException in OrderService",
+    "root_cause": "Unhandled null payment token in OrderService during checkout",
+    "fix_description": "Add null check: if (token != null && token.isValid()) processCheckout(token)",
+    "code_fix": "try:\n    # apply fix\nexcept Exception as e:\n    logger.error(e)",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 53,
+    "title": "Resolution for Bug #116: NullPointerException in AuthService validateToken",
+    "root_cause": "Unhandled null payment token in OrderService during checkout",
+    "fix_description": "Add null check: if (token != null && token.isValid()) processCheckout(token)",
+    "code_fix": "if (token == null || token.trim().isEmpty()) { throw new InvalidTokenException(); }",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 54,
+    "title": "Resolution for Bug #117: NullPointerException in AuthService validateToken",
+    "root_cause": "Unhandled null payment token in OrderService during checkout",
+    "fix_description": "Add null check: if (token != null && token.isValid()) processCheckout(token)",
+    "code_fix": "if (token == null || token.trim().isEmpty()) { throw new InvalidTokenException(); }",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 55,
+    "title": "Resolution for Bug #119: NullPointerException in AuthService validateToken",
+    "root_cause": "Unhandled null payment token in OrderService during checkout",
+    "fix_description": "Add null check: if (token != null && token.isValid()) processCheckout(token)",
+    "code_fix": "if (token == null || token.trim().isEmpty()) { throw new InvalidTokenException(); }",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 56,
+    "title": "Resolution for Bug #120: NullPointerException in AuthService validateToken",
+    "root_cause": "Unhandled null payment token in OrderService during checkout",
+    "fix_description": "Add null check: if (token != null && token.isValid()) processCheckout(token)",
+    "code_fix": "if (token == null || token.trim().isEmpty()) { throw new InvalidTokenException(); }",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 57,
+    "title": "Resolution for Bug #121: NullPointerException in AuthService validateToken",
+    "root_cause": "Unhandled null payment token in OrderService during checkout",
+    "fix_description": "Add null check: if (token != null && token.isValid()) processCheckout(token)",
+    "code_fix": "if (token == null || token.trim().isEmpty()) { throw new InvalidTokenException(); }",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 58,
+    "title": "Resolution for Bug #123: NullPointerException in OrderService checkout pipeline",
+    "root_cause": "Unhandled null payment token in OrderService during checkout",
+    "fix_description": "Add null check: if (token != null && token.isValid()) processCheckout(token)",
+    "code_fix": "if (paymentToken == null || paymentToken.isEmpty()) { throw new PaymentValidationException('Invalid token'); }",
+    "severity": "medium",
+    "status": "active"
+  },
+  {
+    "id": 59,
+    "title": "Resolution for Bug #124: NullPointerException in OrderService checkout pipeline",
+    "root_cause": "Unhandled null payment token in OrderService during checkout",
+    "fix_description": "Add null check: if (token != null && token.isValid()) processCheckout(token)",
+    "code_fix": "if (paymentToken == null || paymentToken.isEmpty()) { throw new PaymentValidationException('Invalid token'); }",
+    "severity": "medium",
+    "status": "resolved"
+  },
+  {
+    "id": 60,
+    "title": "Resolution for Bug #126: IndexError in List Processing during Batch Ingestion",
+    "root_cause": "Likely related to IndexError in Unknown.",
+    "fix_description": "Implement robust input validation, boundary checking, and contextual logging.",
+    "code_fix": "if data is not None:\n    process(data)\nelse:\n    logger.warning('Null input encountered')",
+    "severity": "medium",
+    "status": "resolved"
+  },
+  {
+    "id": 61,
+    "title": "Resolution for Bug #127: IndexError in List Processing during Batch Ingestion",
+    "root_cause": "Likely related to IndexError in Unknown.",
+    "fix_description": "Implement robust input validation, boundary checking, and contextual logging.",
+    "code_fix": "try:\n    # apply fix\nexcept Exception as e:\n    logger.error(e)",
+    "severity": "medium",
+    "status": "resolved"
+  }
+]
