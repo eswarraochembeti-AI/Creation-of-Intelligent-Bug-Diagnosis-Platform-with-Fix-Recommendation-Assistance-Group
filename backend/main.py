@@ -13,7 +13,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from backend.database import engine, Base, SessionLocal
 from backend.routers import auth_router, bugs_router, knowledge_router, analytics_router, reports_router, team_router, search_router
-from backend.seed_data import seed_database
 
 # Create all tables
 Base.metadata.create_all(bind=engine)
@@ -49,22 +48,9 @@ from backend.rag.vector_store import vector_store
 def on_startup():
     db = SessionLocal()
     try:
-        # Ensure status column exists in users table for existing SQLite databases
-        try:
-            with engine.connect() as conn:
-                cursor = conn.connection.cursor()
-                columns = [col[1] for col in cursor.execute("PRAGMA table_info(users)").fetchall()]
-                if "status" not in columns:
-                    cursor.execute("ALTER TABLE users ADD COLUMN status VARCHAR DEFAULT 'Active'")
-                    conn.connection.commit()
-        except Exception as e:
-            print(f"Schema check error: {e}")
-
-        seed_database(db)
-        vector_store.ensure_initialized(db)
+        print("Database startup completed.")
     finally:
         db.close()
-
 
 @app.get("/")
 def root():
