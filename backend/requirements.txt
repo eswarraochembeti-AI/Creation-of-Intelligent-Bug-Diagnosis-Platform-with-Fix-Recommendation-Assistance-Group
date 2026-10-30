@@ -10,3 +10,4 @@ python-dotenv
 numpy
 aiofiles
 sentence-transformers
+email-validator
